@@ -7,7 +7,7 @@ const PdfViewerButton = ({ pdfPath }) => (
     <Button
       variant="contained"
       color="primary"
-      href={`http://localhost:5000/${pdfPath}`}
+      href={`https://digital-library-system-backend-hjqc.onrender.com/${pdfPath}`}
       target="_blank"
       sx={{ mt: 2, mr: 1 }}
     >
