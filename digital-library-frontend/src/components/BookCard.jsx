@@ -9,7 +9,7 @@ const BookCard = ({ book }) => {
       <CardMedia
                 component="img"
                 height="200"
-                image={`http://localhost:5000/${book.coverImageUrl}`}
+                image={`https://digital-library-system-backend-hjqc.onrender.com/${book.coverImageUrl}`}
                 alt={book.title}
               />
       <CardContent>
