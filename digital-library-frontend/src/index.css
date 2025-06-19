@@ -1,0 +1,15 @@
+/* :digital/library-frontend/src/index.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+}
+
+h1 {
+  color: #333;
+}
+
+ul {
+  padding-left: 20px;
+}
