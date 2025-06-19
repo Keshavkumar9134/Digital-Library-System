@@ -10,11 +10,11 @@ connectDB();
 const app = express();
 
 // const __dirname = path.resolve(); // Get the current directory path
-// const corsOptions = {
-//   origin: 'http://localhost:5173', // Adjust this to your frontend URL
-//   credentials: true,
-// };
-app.use(cors());
+const corsOptions = {
+  origin: 'http://localhost:5173', // Adjust this to your frontend URL
+  credentials: true,
+};
+app.use(cors(corsOptions));
 
 app.use(express.json());
 
