@@ -166,7 +166,7 @@ const HomePage = () => {
             <CardMedia
               component="img"
               height="180"
-              image={`http://localhost:5000/${book.coverImageUrl}`}
+              image={`https://digital-library-system-backend-hjqc.onrender.com/${book.coverImageUrl}`}
               alt={book.title}
               sx={{ objectFit: 'cover' }}
             />
